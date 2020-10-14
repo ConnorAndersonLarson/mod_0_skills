@@ -1,0 +1,9 @@
+var food = "yogurt";
+var isDelicious = true;
+food = "hummus";
+var num2 = 43;
+var num7 = 53;
+var quotient = num7 / num2;
+var songs = ["Bang!" , "Goodnight Chicago" , "Start a Riot"];
+songs.shift()
+food.length
