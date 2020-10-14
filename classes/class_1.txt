@@ -1,0 +1,15 @@
+Customers Class
+
+Attributes
+numberOfPeople (Integer)
+allergies (Hash)
+specialOccasion (String)
+seatingPreference (String)
+reservations (Boolean)
+numberOfChildren (Integer)
+
+Methods
+findTable (Gets a table for the customers Uses: numberOfPeople, reservations, seatingPreference)
+getChildrenMenu (Acquires the appropriate amount of childrens menus. Uses: numberOfChildren)
+changeMenu (Alters the menu for special occasions and/or food allergies. Uses: specialOccasion, allergies)
+changeSeating (Takes seating and removes/replaces adult seating with child seating. Uses: numberOfPeople, numberOfChildren, seatingPreference, reservations)
