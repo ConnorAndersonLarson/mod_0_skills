@@ -1,4 +1,4 @@
-Customers Class
+Customer Class
 
 Attributes
 numberOfPeople (Integer)
@@ -13,3 +13,4 @@ findTable (Gets a table for the customers Uses: numberOfPeople, reservations, se
 getChildrenMenu (Acquires the appropriate amount of childrens menus. Uses: numberOfChildren)
 changeMenu (Alters the menu for special occasions and/or food allergies. Uses: specialOccasion, allergies)
 changeSeating (Takes seating and removes/replaces adult seating with child seating. Uses: numberOfPeople, numberOfChildren, seatingPreference, reservations)
+changeReservation (Adds or removes guests on a reservation. Alters: numberOfPeople, numberOfChildren, allergies)

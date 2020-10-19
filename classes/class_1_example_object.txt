@@ -1,7 +1,7 @@
 Johnson Party Instance
 numberOfPeople    (5)
 allergies         ({"Benjamin" : "Gluten", "Dina" : "None" , "Frank" : "Shellfish" , "Tyler" : "None" , "Suzanne" : "Peanut" })
-  specialOccasion ("Birthday")
+specialOccasion   ("Birthday")
 seatingPreference ("Table")
 reservations      (true)
 numberOfChildren  (2)
@@ -11,3 +11,4 @@ findTable         Window Table for 5 reserved for the Johnson Party
 getChildrenMenu   Two children menus are added to the Johnson Party Table
 changeMenu        Menu items that are allergens are removed/crossed out. A cake/dessert menu is added for the Birthday celebration
 changeSeating     The Table had 2 seats removed and 2 child seats added for the kids before arrival (due to reservations)
+changeReservation Two of the guests won't be able to make it. Remove one child from numberOfChildren and two people from numberOfPeople. Remove "Frank" and "Suzanne" from allergies.
